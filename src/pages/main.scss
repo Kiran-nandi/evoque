@@ -1,0 +1,544 @@
+$primarybg : #27272a;
+$darkbg: #181818;
+$secondarybg: #333;
+$darkbgtextcolor: #fff;
+$darkbgiconcolor: #525252;
+$applybtncolor: #c6c6f9;
+$darkbgsecondarytextcolor: #cccccc;
+
+$lightprimarybg: #fff;
+$lightsecondarybg: #ccc;
+$lightbgtextcolor: #181818;
+$lightbgiconbgcolor: rgba(0,0,0,0.6);
+
+// Dark BG
+.mainlayout-maindiv-admin {
+    background-color: $primarybg;
+}
+.sidebarsliderdiv, .bookingicondiv, .mainpage, 
+.ag-theme-quartz
+{
+    background-color: $darkbg;
+}
+.mainlayout-maindiv-admin p
+{
+    color: $darkbgtextcolor;
+}
+.navbaricon
+{
+    color: $darkbgiconcolor;
+}
+.lighbulbicon {
+    color: $darkbgtextcolor;
+} 
+.custom-theme-quartz .ag-header, .custom-theme-quartz  .ag-paging-panel
+{
+    background-color: $primarybg ;
+    border-bottom-color: $darkbgiconcolor;
+}
+.custom-theme-quartz .ag-root-wrapper {
+    background-color: $darkbgiconcolor ;
+}
+.custom-theme-quartz .ag-header-cell-text, .custom-theme-quartz .ag-cell-value,
+.custom-theme-quartz .ag-paging-panel .ag-paging-row-summary-panel span,
+.custom-theme-quartz .ag-label,
+.custom-theme-quartz .ag-paging-page-summary-panel,
+.custom-theme-quartz .ag-button,
+.custom-theme-quartz .ag-icon 
+{
+    color: $darkbgtextcolor;
+}
+.custom-theme-quartz .ag-header-cell-resize::after
+ {
+    background-color: $darkbgiconcolor;
+}
+.custom-theme-quartz .ag-row {
+    background-color: $darkbg;
+    border-bottom-color: $darkbgiconcolor;
+}
+.logo-image-div, .sidebaropenicondiv {
+    background-color: $darkbg;
+}
+.sidebaricons {
+    color: $darkbgiconcolor;
+}
+.sidebaricons.active {
+    color: $darkbgtextcolor;
+}
+.listdivdrawer, .css-cyqh1t-MuiPaper-root-MuiDrawer-paper {
+    background-color: $darkbg !important;
+}
+.sidebarlefttext {
+    color: $darkbgsecondarytextcolor;
+}
+.sidebarlefttext.active {
+    color: $darkbgtextcolor;
+}
+
+
+
+
+
+
+
+// LIGHT BG
+.mainlayout-maindiv-admin.lightbg
+{
+    background-color: $lightprimarybg;
+}
+.mainlayout-maindiv-admin.lightbg .sidebarsliderdiv,
+.mainlayout-maindiv-admin.lightbg .bookingicondiv,
+.mainlayout-maindiv-admin.lightbg .mainpage
+{
+    // background-color: $lightsecondarybg;
+    background-color: $lightprimarybg;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+
+}
+.mainlayout-maindiv-admin.lightbg p {
+    color: $lightbgtextcolor;
+}
+.mainlayout-maindiv-admin.lightbg .navbaricon
+{
+    color: $lightbgiconbgcolor;
+}
+.mainlayout-maindiv-admin.lightbg .ag-theme-quartz {
+    background-color: $lightprimarybg;
+}
+.mainlayout-maindiv-admin.lightbg .custom-theme-quartz .ag-header, .mainlayout-maindiv-admin.lightbg .custom-theme-quartz  .ag-paging-panel
+{
+    // background-color: $lightsecondarybg ;
+    // background-color: $lightprimarybg ;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: $lightsecondarybg;
+}
+.mainlayout-maindiv-admin.lightbg .custom-theme-quartz .ag-root-wrapper {
+    background-color: $lightsecondarybg ;
+}
+.mainlayout-maindiv-admin.lightbg .custom-theme-quartz .ag-header-cell-text, .mainlayout-maindiv-admin.lightbg .custom-theme-quartz .ag-cell-value,
+.mainlayout-maindiv-admin.lightbg .custom-theme-quartz .ag-paging-panel .ag-paging-row-summary-panel span,
+.mainlayout-maindiv-admin.lightbg .custom-theme-quartz .ag-label,
+.mainlayout-maindiv-admin.lightbg .custom-theme-quartz .ag-paging-page-summary-panel,
+.mainlayout-maindiv-admin.lightbg .custom-theme-quartz .ag-button,
+.mainlayout-maindiv-admin.lightbg .custom-theme-quartz .ag-icon 
+{
+    color: $lightbgtextcolor;
+}
+.mainlayout-maindiv-admin.lightbg .custom-theme-quartz .ag-header-cell-resize::after
+ {
+    background-color: $lightsecondarybg;
+}
+.mainlayout-maindiv-admin.lightbg .custom-theme-quartz .ag-row {
+    background-color: $lightprimarybg;
+    border-bottom-color: $lightsecondarybg;
+}
+.mainlayout-maindiv-admin.lightbg .logo-image-div {
+    // background-color: $lightsecondarybg;
+    background-color: unset;
+}
+.mainlayout-maindiv-admin.lightbg  .sidebaricons {
+    color: $lightbgiconbgcolor;
+}
+.mainlayout-maindiv-admin.lightbg .sidebaricons.active {
+    color: $lightbgtextcolor;
+}
+.mainlayout-maindiv-admin.lightbg .sidebaropenicondiv {
+    background-color: $lightprimarybg;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.sidebartogglediv.lightbg .listdivdrawer, .sidebartogglediv.lightbg .css-cyqh1t-MuiPaper-root-MuiDrawer-paper {
+    background-color: $lightprimarybg !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.sidebartogglediv.lightbg .sidebarsliderdiv.opened {
+    background-color: $lightprimarybg;
+}
+.sidebartogglediv.lightbg .sidebarlefttext {
+    color: $lightbgtextcolor;
+}
+.sidebartogglediv.lightbg .sidebarlefttext.active {
+    color: $lightbgtextcolor;
+}
+.sidebartogglediv.lightbg .sidebaricons.active {
+    color: $lightbgtextcolor;
+}
+.sidebartogglediv.lightbg .logo-image-div {
+    background-color: unset;
+}
+// .sidebartogglediv.lightbg .sidebaricons1.active {
+//     color: $lightprimarybg;
+// }
+.sidebartogglediv.lightbg .sidebaropenicondiv {
+    background-color: $lightprimarybg;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+.mainloginpage {
+    background-color: $primarybg;
+    height: 100vh;
+    padding-top: 5%;
+}
+.logindiv {
+    background-color: $secondarybg;
+    width: 25%;
+    border: 1px solid #555555;
+    margin: 0px auto;
+    display: block;
+    margin-top: 0px;
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+.primaryheader {
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.5;
+}
+label {
+color: #fff;
+font-size: 15px;
+margin-bottom: 5px;
+}
+
+.custombtn {
+    width: 100%;
+    margin: 10px 0px;
+}
+.custominputdiv::placeholder {
+    font-size: 12px;
+}
+.mainlayout-maindiv-admin {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+.sidebarmaindiv {
+    height: 100%;
+}
+.sidebarsliderdiv {
+    width: 70px;
+    padding: 10px 15px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+.mainlayout-navbar {
+    width: 100%;
+}
+.navbarmaindiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.bookingicondiv {
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-right: 15px;
+    height: max-content;
+}
+.navbaricon {
+    font-size: 22px;
+}
+.mainlayout-rightdiv {
+    padding: 20px 30px;
+    width: 100%;
+}
+.page-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+.lightbulbdiv {
+    margin-left: auto;
+    cursor: pointer;
+}
+.downloadicon {
+    margin-left: 15px;
+}
+.mainpage {
+    // height: 400px;
+    border-radius: 20px;
+    padding: 20px 20px 20px;
+    margin-top: 15px;
+}
+.filterdropdownsdiv {
+    justify-content: space-between;
+    flex-direction: row;
+}
+.searchdiv {
+    width: 160px;
+    position: relative;
+}
+.filterdivinput {
+    height: 42px;
+    border: 1px solid $darkbgiconcolor !important;
+    background-color: $darkbg !important;
+    border-radius: 50px;
+    color: $darkbgtextcolor !important;
+    font-size: 13px;
+    padding-left: 35px;
+}
+.filterdivinput::placeholder {
+    color: $darkbgtextcolor !important;
+    font-size: 13px;
+}
+.searchdiv .navbaricon {
+    font-size: 14px;
+    position: absolute;
+    left: 10px;
+    top: 14px;
+}
+.applybtndiv {
+    background-color: $applybtncolor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 42px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.applybtndiv p {
+    color: #000;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.filterdivselect {
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.ag-cell {
+    font-weight: 400 !important;
+}
+.ag-header-wrap-text .ag-header-cell-label {
+    white-space: normal !important;
+    // word-break: break-word;
+    text-align: center;
+  }
+  .ag-header-wrap-text .ag-header-cell-text {
+    font-size: 12px;
+  }
+  .inventorycell {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.4;
+    white-space: normal !important;
+    word-break: normal !important;  /* ✅ Wrap only at spaces */
+    padding: 6px;
+    text-align: center;             /* optional */
+    display: flex !important;
+  }
+  .ag-header-wrap-text .ag-header-cell-text {
+    white-space: normal !important;
+    word-break: normal !important; 
+    line-height: 1.4;
+    // height: 80px;
+  }
+  .logo-image-div {
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+  }
+  .logo-image {
+    height: 35px;
+  }
+  .sidebar-icons-maindiv {
+    padding-top: 15px;
+}
+.logo-image-div.sidebar-icons-div {
+    background-color: unset;
+    margin: 25px 0px;
+}
+.sidebar-icons-div {
+    cursor: pointer;
+}
+.sidebaricons {
+    font-size: 22px;
+    text-align: center;
+}
+.sidebaropenicondiv {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    right: -15px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    cursor: pointer;
+}
+.sidebaricons1 {
+    font-size: 18px;
+}
+.confirmedbtn {
+    background-color: #b7eebc;
+    padding: 5px 0px;
+    min-width: 80%;
+    border-radius: 50px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    margin: 0px auto;
+    display: block;
+}
+.confirmedbtn p {
+    margin-bottom: 0px;
+    font-size: 10px;
+    color: #000;
+}
+.greendot {
+    background-color: #368c3d;
+    height: 16px;
+    width: 16px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.bluedot {
+    background-color: #404ad9;
+}
+.vouchertext {
+    margin-bottom: 0px;
+    margin-left: 15px;
+    // position: absolute;
+
+}
+.actioneditbtn {
+    background-color: $applybtncolor;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 5px;
+    display: flex;
+    cursor: pointer;
+}
+.editicon {
+    color: #000;
+    font-size: 16px;
+    margin: auto;
+}
+.sidebarsliderdiv.opened {
+    width: 100%;
+}
+.listdivdrawer {
+    // overflow: hidden;
+}
+.listdivdrawer {
+    overflow: visible;
+    overflow-y: hidden;
+    // overflow-x: hidden;
+}
+.MuiPaper-root {
+    overflow: visible;
+}
+.css-1rqi39r-MuiList-root {
+    overflow-y: hidden;
+}
+.sidebarsliderdiv.opened  .sidebaropenicondiv {
+    z-index: 100;
+    right: 0px;
+}
+.css-cyqh1t-MuiPaper-root-MuiDrawer-paper {
+    overflow: visible;
+}
+.sidebarsliderdiv.opened .logo-image-div {
+    justify-content: left;
+}
+.sidebarlefttext {
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.sidebarlefticontext {
+    margin-top: 0px;
+}
+.sidebarlefticontext.active {
+    font-weight: 600;
+}
+.mainlayout-leftdiv {
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// light bg
+.mainlayout-maindiv-admin.lightbg .filterdivinput {
+    border: 1px solid $lightprimarybg !important;
+    background-color: $lightprimarybg !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: $lightbgtextcolor !important;
+}
+.mainlayout-maindiv-admin.lightbg .filterdivinput::placeholder {
+    color: $lightbgtextcolor !important;
+    font-size: 13px;
+}
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .searchdiv {
+        width: 130px;
+    }
+    .filterdivinput, .applybtndiv {
+        height: 39px;
+        font-size: 11px;
+    }
+    .filterdivinput::placeholder {
+        font-size: 11px;
+    }
+    .applybtndiv p  {
+        font-size: 14px;
+    }
+    .ag-header-wrap-text .ag-header-cell-text {
+        font-size: 10.5px;
+    }
+    .ag-cell-value, .ag-group-value {
+        font-size: 10px;
+        display: flex;
+  align-items: center;    /* ✅ vertical centering */
+  height: 100%;
+    }
+    .sidebaricons {
+        font-size: 20px;
+    }
+    .sidebaricons1 {
+        font-size: 16px;
+    }
+    .logo-image-div.sidebar-icons-div {
+        margin: 25px 0px;
+    }
+    .navbaricon {
+        font-size: 20px;
+    }
+    .page-title {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+}
